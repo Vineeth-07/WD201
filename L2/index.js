@@ -1,6 +1,6 @@
 const http = require('http');
 const fs = require('fs');
-const args = require('minimist')(process.argv.slice(2));
+const portno = require('minimist')(process.argv.slice(2));
 
 let homePage;
 let projectPage;
@@ -48,4 +48,4 @@ http.createServer((request, response) => {
             response.end();
             break;
     }
-}).listen(args.port);
+}).listen(portno.port);
