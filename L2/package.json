@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Suprabath K <suprabathkondapally@gmail.com>",
+  "author": "vineeth>",
   "license": "ISC",
   "dependencies": {
     "minimist": "^1.2.6"
