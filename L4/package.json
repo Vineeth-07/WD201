@@ -7,7 +7,7 @@
     "test": "jest",
     "prepare": "husky install"
   },
-  "author": "",
+  "author": "Vineeth",
   "license": "ISC",
   "devDependencies": {
     "husky": "^8.0.1",
