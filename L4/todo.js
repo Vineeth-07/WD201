@@ -24,20 +24,6 @@ const todoList = () => {
       (todo) => todo.dueDate > new Date().toLocaleDateString("en-CA")
     );
   };
-
-  const toDisplayableList = (list) => {
-    return list
-      .map(
-        (todo) =>
-          `${todo.completed ? "[x]" : "[ ]"} ${todo.title} ${
-            todo.dueDate === new Date().toLocalDateString("en-CA")
-              ? ""
-              : todo.dueDate
-          }`
-      )
-      .join("\n");
-  };
-
   return {
     all,
     add,
@@ -45,7 +31,6 @@ const todoList = () => {
     overdue,
     dueToday,
     dueLater,
-    toDisplayableList,
   };
 };
 
