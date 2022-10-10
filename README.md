@@ -10,4 +10,4 @@ L4-Completed
 
 L5-Completed
 
-L6-In progress
+L6-Completed
